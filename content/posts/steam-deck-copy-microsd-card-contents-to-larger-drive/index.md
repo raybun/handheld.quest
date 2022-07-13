@@ -95,7 +95,7 @@ When the process is complete, continue to the next step.
 {{<figure
     src="identify_partition.png"
     alt="Steam Deck cloning old microSD to larger microSD Drive using DD Tool in Desktop Mode"
-    caption="cloning in progress"
+    caption="my microSD write speed is maxed out"
     href="identify_partition.png"
     >}}
 
@@ -116,7 +116,7 @@ Usually Linux doesn't need a lot of reboots, but this is one of the cases where 
 {{<figure
     src="resize_partition_after_reboot.png"
     alt="Steam Deck cloning old microSD to larger microSD Drive using DD Tool in Desktop Mode"
-    caption="cloning in progress"
+    caption="resizing the partition after rebooting"
     href="resize_partition_after_reboot.png"
     >}}
 
