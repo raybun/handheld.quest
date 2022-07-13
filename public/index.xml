@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>handheld.quest</title>
+    <link>https://handheld.quest/</link>
+    <description>Recent content on handheld.quest</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>©{{&lt; year &gt;}} handheld.quest</copyright>
+    <lastBuildDate>Wed, 13 Jul 2022 18:10:02 +0200</lastBuildDate><atom:link href="https://handheld.quest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Disclaimer</title>
+      <link>https://handheld.quest/disclaimer/</link>
+      <pubDate>Wed, 13 Jul 2022 18:10:02 +0200</pubDate>
+      
+      <guid>https://handheld.quest/disclaimer/</guid>
+      <description>WEBSITE DISCLAIMER # The information provided by handheld.</description>
+    </item>
+    
+    <item>
+      <title>How to move Steam Deck microSD contents to larger card</title>
+      <link>https://handheld.quest/posts/migrate-steam-deck-sd-card-to-larger-card-via-cloning-with-dd/</link>
+      <pubDate>Wed, 13 Jul 2022 18:10:02 +0200</pubDate>
+      
+      <guid>https://handheld.quest/posts/migrate-steam-deck-sd-card-to-larger-card-via-cloning-with-dd/</guid>
+      <description>I bought a larger SD card for my Steam Deck - how to transfer everything?</description>
+    </item>
+    
+  </channel>
+</rss>
