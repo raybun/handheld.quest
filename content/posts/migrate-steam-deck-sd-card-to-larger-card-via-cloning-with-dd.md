@@ -105,6 +105,3 @@ sudo umount /dev/$NEWCARDNAME
 sudo resize2fs /dev/$NEWCARDNAME
 ```
 to try and expand the partition via the Terminal. It might come back with additional instructions, in which case follow those and run it again.
-
-## Disclaimer
-
