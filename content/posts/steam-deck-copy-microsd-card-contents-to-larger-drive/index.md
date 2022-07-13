@@ -30,6 +30,14 @@ How can you move / migrate your data from the old SD card to the new one?
 
 It took me about 45 minutes to clone a 256 GB microSD, then a few minutes for extra setup.
 
+{{<figure
+    src="steam-deck-konsole-dd-tool-clone-microsd-progress.jpg"
+    alt="Steam Deck cloning old microSD to larger microSD Drive using DD Tool in Desktop Mode"
+    caption="cloning in progress"
+    href="steam-deck-konsole-dd-tool-clone-microsd-progress.jpg"
+    >}}
+
+
 # Steps
 
 ## Step 1: Format the new card
@@ -52,14 +60,20 @@ Run the `lsblk` command to get an overview of your drives and partitions. Take n
 
 Example:
 
-- my OLD microSD is called ääääääää
-- my NEW microSD is called /sdb
+- my OLD microSD is called **/mmcblk0** (in SD Slot)
+- my NEW microSD is called **/sdb** (in card reader dock)
+
+{{< alert >}}
+**Important!** Your microSD devices might be called differently, so don't just copy my example. Or you'll have a bad time.
+{{< /alert >}}
 
 ## Step 3: Run the "dd" utility for a perfect 1:1 clone
 
 Now we can start cloning.
 
-> Important! Make sure you have your charger hooked up, as this will take a while!
+{{< alert >}}
+**Important!** Make sure you have your charger hooked up, as this will take a while!
+{{< /alert >}}
 
 Enter the following command in `Konsole`:
 
@@ -67,7 +81,10 @@ Enter the following command in `Konsole`:
 sudo dd if=/dev/$OLDCARDNAME of=/dev/$NEWCARDNAME status=progress bs=100M
 ```
 
-> Important! replace `$OLDCARDNAME` and `$NEWCARDNAME` (no dollar sign!) with the respective names of the old and new cards. The order matters.
+{{< alert >}}
+**Important!** replace `$OLDCARDNAME` and `$NEWCARDNAME` (no dollar sign!) with the respective names of the old and new cards. The order matters.
+{{< /alert >}}
+
 
 What this does: This will clone the drive (and all partitions) specified in `if` to the drive specified in `of`, while displaying `progress` (nice!) and the bs=100M setting will help speed up the process to your microSD's max write speed.
 
