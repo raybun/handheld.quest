@@ -1,10 +1,11 @@
 ---
-title: "How to move Steam Deck microSD contents to larger card"
+title: "How to mirror / clone Steam Deck microSD to new SD card"
 date: 2022-07-13T18:10:02+02:00
+updated: 2022-07-13T23:50:00+02:00
 draft: false
 ---
 
-# I bought a larger SD card for my Steam Deck - how to transfer everything?
+## I bought a larger SD card for my Steam Deck - how to transfer everything without breaking apps / games?
 
 You already installed a bunch of games to your microSD on Steam Deck, maybe EmuDeck or other emulation setup and a bunch of ROMs and perhaps games from itch.io, using the Heroic launcher and a whole bunch of other stuff to your 256 GB SD card.
 
@@ -12,7 +13,7 @@ But then you realise that SD cards are cheap. You buy a 512 GB A2 microSD or eve
 
 How can you move / migrate your data from the old SD card to the new one?
 
-# Cloning a microSD card in SteamOS (Linux): Prerequisites
+## Cloning a microSD card in SteamOS (Linux): Prerequisites
 
 **What you will need**
 
@@ -28,7 +29,7 @@ How can you move / migrate your data from the old SD card to the new one?
 
 **Duration**
 
-It took me about 45 minutes to clone a 256 GB microSD, then a few minutes for extra setup.
+It took me about 45 minutes to clone a 256 GB microSD to a new 512 GB drive I bought at a sale, then a few minutes for extra setup.
 
 {{<figure
     src="steam-deck-konsole-dd-tool-clone-microsd-progress.jpg"
@@ -38,9 +39,9 @@ It took me about 45 minutes to clone a 256 GB microSD, then a few minutes for ex
     >}}
 
 
-# Steps
+## Steps
 
-## Step 1: Format the new card
+### Step 1: Format the new card
 
 1. Remove the OLD card from your Steam Deck after safely ejecting it.
 2. Insert the NEW card in the SD card slot.
@@ -48,7 +49,7 @@ It took me about 45 minutes to clone a 256 GB microSD, then a few minutes for ex
 4. Once done and it shows up in the `Storage` menu, you can remove the card from the slot.
 5. Now reinsert your OLD card.
 
-## Step 2: Figure out the names of your devices (drives) in Konsole
+### Step 2: Figure out the names of your devices (drives) in Konsole
 
 Using the Start Menu, launch `Konsole` (Terminal Emulator).
 
@@ -67,7 +68,7 @@ Example:
 **Important!** Your microSD devices might be called differently, so don't just copy my example. Or you'll have a bad time.
 {{< /alert >}}
 
-## Step 3: Run the "dd" utility for a perfect 1:1 clone
+### Step 3: Run the "dd" utility for a perfect 1:1 clone
 
 Now we can start cloning.
 
@@ -99,7 +100,7 @@ When the process is complete, continue to the next step.
     href="identify_partition.png"
     >}}
 
-## Step 4: Reboot and resize partition to fill drive
+### Step 4: Reboot and resize partition to fill drive
 
 If you are migrating to a larger drive, we need to reboot for the linux kernel to report the correct size for the drive and free space available, so that we can resize the partition to the full extent of the drive. Otherwise it will retain the size of the old drive we cloned. Not useful!
 
@@ -131,7 +132,7 @@ Don't forget to [follow me](https://twitter.com/handheldquest) on Twitter.
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
 Q: I rebooted but I still can't resize my new drive's partition to fill up the empty space, what's happening?
 
