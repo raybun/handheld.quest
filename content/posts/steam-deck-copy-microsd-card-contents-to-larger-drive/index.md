@@ -92,6 +92,13 @@ It might take a while, up to a couple hours if you're cloning a large drive.
 
 When the process is complete, continue to the next step.
 
+{{<figure
+    src="identify_partition.png"
+    alt="Steam Deck cloning old microSD to larger microSD Drive using DD Tool in Desktop Mode"
+    caption="cloning in progress"
+    href="identify_partition.png"
+    >}}
+
 ## Step 4: Reboot and resize partition to fill drive
 
 If you are migrating to a larger drive, we need to reboot for the linux kernel to report the correct size for the drive and free space available, so that we can resize the partition to the full extent of the drive. Otherwise it will retain the size of the old drive we cloned. Not useful!
@@ -105,6 +112,13 @@ Usually Linux doesn't need a lot of reboots, but this is one of the cases where 
 5. Click "Apply" at the top left. This process should be fairly quick.
 6. Now you can safely eject both microSD cards and insert your new, freshly cloned drive in the microSD slot of your Steam Deck.
 7. Congratulations, enjoy your perfect clone! All of your applications and games, including emulation should work right out of the box.
+
+{{<figure
+    src="resize_partition_after_reboot.png"
+    alt="Steam Deck cloning old microSD to larger microSD Drive using DD Tool in Desktop Mode"
+    caption="cloning in progress"
+    href="resize_partition_after_reboot.png"
+    >}}
 
 ---
 
