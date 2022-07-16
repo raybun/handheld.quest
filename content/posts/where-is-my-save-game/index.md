@@ -61,12 +61,12 @@ To identify the correct subfolder here, look up the game in question on the stea
 
 **RetroArch (EmuDeck) save folder**
 ```bash
-/home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves
+/home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves/
 ```
 
 **Symlinks to save folders for EmuDeck (SD Install)**
 ```bash
-/run/media/mmcblk0p1/Emulation/saves
+/run/media/mmcblk0p1/Emulation/saves/
 ```
 
 {{< alert >}}
