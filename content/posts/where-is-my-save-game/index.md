@@ -4,12 +4,12 @@ date: 2022-07-16T18:09:11+02:00
 draft: false
 ---
 Table of contents:
-- [Trouble finding your save game folders and files for Windows games, Lutris and Heroic on Steam Deck?](#trouble-finding-your-save-game-folders-and-files-for-windows-games-lutris-and-heroic-on-steam-deck)
+- [Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?](#trouble-finding-your-save-game-folders-and-files-for-emulators-windows-games-lutris-and-heroic-on-steam-deck)
 - [How to search for folders on Steam Deck (Desktop Mode)](#how-to-search-for-folders-on-steam-deck-desktop-mode)
 - [Typical Save Game Folders / Paths on Steam Deck](#typical-save-game-folders--paths-on-steam-deck)
 - [Copying files and folders to your PC or onto Steam Deck](#copying-files-and-folders-to-your-pc-or-onto-steam-deck)
 
-## Trouble finding your save game folders and files for Windows games, Lutris and Heroic on Steam Deck?
+## Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?
 
 Sometimes you want to backup your save games from Steam Deck to PC, or maybe transfer saves *from* PC to the Deck for games that don't support cloud saves, or have been installed from one of the numerous third-party launchers, or manually via Lutris.
 
@@ -53,13 +53,27 @@ Tip: You can copy the paths from below and paste them into Dolphin's Path bar by
  /home/deck/Games/Heroic/Prefixes/
 ```
 
+**RetroArch (EmuDeck) save folder**
+```bash
+home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves
+```
+
+**Symlinks to save folders for EmuDeck (SD Install)**
+```bash
+/run/media/mmcblk0p1/Emulation/saves
+```
+
+{{< alert >}}
+To view hidden files and folders in the **Dolphin** file manager on SteamOS, press `Ctrl + H` or select `View -> Show Hidden Files` in the menu. If you can't see the menu bar, hit the hamburger menu and look for `Show Menubar`.
+{{< /alert >}}
+
 ## Copying files and folders to your PC or onto Steam Deck
 
 To transfer files back and forth between your Desktop computer and Steam Deck, I can recommend using **Warpinator**.
 
 Install the **Windows client** [from e.g. this GitHub Releases Page](https://github.com/slowscript/warpinator-windows/releases) (or another implementation) and get the Steam Deck client via the **Discover** store.
 
-*Warpinator* will allow you to drag and drop folders into the Application and accept the transfer on the other side, as long as both devices are on the same network
+*Warpinator* will allow you to drag and drop folders into the Application and accept the transfer on the other side, as long as both devices are on the same network.
 
 ---
 
