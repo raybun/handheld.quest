@@ -45,6 +45,10 @@ Tip: You can copy the paths from below and paste them into Dolphin's Path bar by
 /home/deck/.steam/steam/steamapps/compatdata/
 ```
 
+To identify the correct subfolder here, look up the game in question on the steam store (web), the ID will be in the URL of the game like so:
+
+`https://store.steampowered.com/app/**504230**/Celeste/`
+
 **Wine default prefix folder (useful for Lutris and similar)**
 ```bash
  /home/deck/.wine/drive_c/users/deck/
