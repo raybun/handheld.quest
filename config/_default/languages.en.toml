@@ -5,8 +5,8 @@ isoCode = "en"
 weight = 1
 rtl = false
 
-title = "handheld.quest"
-# logo = "img/logo.jpg"
+title = "Documenting my Steam Deck Journey"
+logo = "img/logo.png"
 description = "Guides for Handheld Addicts (featuring Steam Deck!)"
 copyright = "©{{< year >}} handheld.quest"
 
