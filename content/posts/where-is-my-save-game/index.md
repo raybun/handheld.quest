@@ -55,7 +55,7 @@ Tip: You can copy the paths from below and paste them into Dolphin's Path bar by
 
 **RetroArch (EmuDeck) save folder**
 ```bash
-home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves
+/home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves
 ```
 
 **Symlinks to save folders for EmuDeck (SD Install)**
