@@ -3,6 +3,8 @@ title: "Where Is My Save Game on Steam Deck? (Paths & Locations)"
 date: 2022-07-16T18:09:11+02:00
 draft: false
 ---
+A list of common folders for save game data in SteamOS and Wine on Linux in general.
+
 Table of contents:
 - [Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?](#trouble-finding-your-save-game-folders-and-files-for-emulators-windows-games-lutris-and-heroic-on-steam-deck)
 - [How to search for folders on Steam Deck (Desktop Mode)](#how-to-search-for-folders-on-steam-deck-desktop-mode)
