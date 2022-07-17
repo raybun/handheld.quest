@@ -4,6 +4,8 @@ date: 2022-07-13T18:10:02+02:00
 updated: 2022-07-16T18:00:00+02:00
 draft: false
 ---
+A guide on migrating a whole partition or drive in SteamOS or Linux in general.
+
 Table of contents:
 - [I bought a larger SD card for my Steam Deck - how to transfer everything without breaking apps / games?](#i-bought-a-larger-sd-card-for-my-steam-deck---how-to-transfer-everything-without-breaking-apps--games)
     - [Option 1: Using the Dolphin GUI file manager](#option-1-using-the-dolphin-gui-file-manager)
@@ -102,7 +104,7 @@ sudo dd if=/dev/$OLDCARDNAME of=/dev/$NEWCARDNAME status=progress bs=100M
 {{< /alert >}}
 
 
-What this does: This will clone the drive (and all partitions) specified in `if` to the drive specified in `of`, while displaying `progress` (nice!) and the bs=100M setting will help speed up the process to your microSD's max write speed.
+What this does: This will clone the drive (and all partitions) specified in `if` to the drive specified in `of`, while displaying `progress` (nice!) and the `bs=100M` setting will help speed up the process to your microSD's max write speed by adjusting the [block size](https://en.wikipedia.org/wiki/Dd_%28Unix%29#Block_size).
 
 It might take a while, up to a couple hours if you're cloning a large drive.
 

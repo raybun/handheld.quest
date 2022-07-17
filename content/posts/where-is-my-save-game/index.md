@@ -3,6 +3,8 @@ title: "Where Is My Save Game on Steam Deck? (Paths & Locations)"
 date: 2022-07-16T18:09:11+02:00
 draft: false
 ---
+A list of common folders for save game data in SteamOS and Wine on Linux in general.
+
 Table of contents:
 - [Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?](#trouble-finding-your-save-game-folders-and-files-for-emulators-windows-games-lutris-and-heroic-on-steam-deck)
 - [How to search for folders on Steam Deck (Desktop Mode)](#how-to-search-for-folders-on-steam-deck-desktop-mode)
@@ -43,6 +45,10 @@ Tip: You can copy the paths from below and paste them into Dolphin's Path bar by
 /home/deck/.steam/steam/steamapps/compatdata/
 ```
 
+To identify the correct subfolder here, look up the game in question on the steam store (web), the ID will be in the URL of the game like so:
+
+`https://store.steampowered.com/app/**504230**/Celeste/`
+
 **Wine default prefix folder (useful for Lutris and similar)**
 ```bash
  /home/deck/.wine/drive_c/users/deck/
@@ -55,12 +61,12 @@ Tip: You can copy the paths from below and paste them into Dolphin's Path bar by
 
 **RetroArch (EmuDeck) save folder**
 ```bash
-/home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves
+/home/deck/.var/app/org.libreto.RetroArch/config/retroarch/saves/
 ```
 
 **Symlinks to save folders for EmuDeck (SD Install)**
 ```bash
-/run/media/mmcblk0p1/Emulation/saves
+/run/media/mmcblk0p1/Emulation/saves/
 ```
 
 {{< alert >}}
