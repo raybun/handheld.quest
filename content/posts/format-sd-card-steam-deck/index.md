@@ -4,7 +4,7 @@ date: 2022-07-17T23:15:43+02:00
 draft: false
 ---
 
-Quick guide on how to easily format SD Cards for Steam Deck.
+Quick guide on how to easily format SD cards for Steam Deck.
 
 {{<figure
     src="sd_cards.jpg"

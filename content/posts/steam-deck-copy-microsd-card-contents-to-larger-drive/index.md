@@ -1,5 +1,5 @@
 ---
-title: "How to mirror / clone Steam Deck microSD to new SD card"
+title: "How to Mirror / Clone Steam Deck microSD to New SD Card"
 date: 2022-07-13T18:10:02+02:00
 updated: 2022-07-16T18:00:00+02:00
 draft: false
