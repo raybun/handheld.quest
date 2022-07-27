@@ -32,4 +32,9 @@
 [[footer]]
   name = "Disclaimer"
   pageRef = "disclaimer"
+
+[[footer]]
+name = "Best Dock for Steam Deck"
+pageRef = "best-dock-usb-c-hub-for-steam-deck"
+  
 #  weight = 10
