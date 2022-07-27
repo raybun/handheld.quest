@@ -45,7 +45,7 @@ This will max out the write speed of your microSD drive and provide the **fastes
 - Steam Deck
 - old microSD card
 - new microSD card (equal in capacity, or larger)
-- USB-C microSD card reader (or a USB-A card reader and a USB-C adaptor)
+- USB-C microSD card reader (or a USB-A card reader and a USB-C adapter)
 - alternatively: a USB-C dock featuring a SD Card Reader (that's what I used)
 
 **Handy to have, not required**
