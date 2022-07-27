@@ -20,8 +20,8 @@ Why can't the lake have two docks?
 - fits the original Steam Deck case, is **portable**
 - it won't crush your color values, supports HDR
 - **100W Power Delivery charging** (PD 3.0, Fast Role Swap) 
-- relatively inexpensive at ~39€ over at 🛒[Amazon.de*](https://amzn.to/3vk6gZ0)
-- or ~$41 at 🛒[Amazon.com*](https://amzn.to/3owqs64), depending upon current offers
+- relatively inexpensive at ~39€ over at 🛒<a href="https://amzn.to/3vk6gZ0" target="_blank">Amazon.de</a>*
+- or ~$41 at 🛒<a href="https://amzn.to/3owqs64" target="_blank">Amazon.com</a>*, depending upon current offers
 
 {{<alert>}}
 I am not affiliated with Dockteck or any of their partners.
@@ -37,7 +37,7 @@ I am not affiliated with Dockteck or any of their partners.
 
 ## First impressions and quick tests
 
-The dock will let the Steam Deck output at the full 4K resolution with 60hz, as confirmed via display properties. Accessible in SteamOS Desktop mode via:
+The dock will let the Steam Deck output at the full 4K&nbsp;resolution with 60&nbsp;Hz, as confirmed via display properties. Accessible in SteamOS Desktop mode via:
 
 System Settings&nbsp;🡺&nbsp;Display and Monitor&nbsp;🡺&nbsp;Display Configuration.
 
@@ -75,13 +75,16 @@ The dock does get *warm* (not hot to the touch) during usage. Nothing to worry a
 
 I'm completely happy with the performance of the Dockteck hub/dock and would recommend it if you're still on the fence about buying a dock. I particularly like the solid build quality, thermal conduction of the enclosure, nicely wrapped and reinforced cable (not too stiff), portability and so far it has *just worked*.
 
+---
 
 # Where to buy?
 
-- 🛒[Amazon USA*](https://amzn.to/3owqs64)
-- 🛒[Amazon Germany*](https://amzn.to/3vk6gZ0)
+- 🛒<a href="https://amzn.to/3owqs64" target="_blank">Amazon.com (USA)*</a>
+- 🛒<a href="https://amzn.to/3vk6gZ0" target="_blank">Amazon.de (Germany and friends)*</a>
 
 **Affiliate link. If you buy via my link, Amazon pays me a tiny commission at no cost to you. Helps support this blog.*
+
+---
 
 ## Dockteck 7-in-1 Specifications
 
