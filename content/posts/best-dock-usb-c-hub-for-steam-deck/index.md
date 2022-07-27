@@ -49,8 +49,7 @@ Not all USB-C HDMI adapters and docks will perform at 60hz, some claim to do so 
 
 It's a common issue with USB-C&nbsp;🡺&nbsp;HDMI&nbsp;adapters, at 30&nbsp;Hz you'll get 30&nbsp;FPS tops, which will feel particularly sluggish in the menu UI and obviously isn't great for gaming. I went down that rabbit hole before, trying to find a decent hub to allow me to work from my M1&nbsp;Mac, using a TV as my 4K&nbsp;monitor.
 
-I hooked up my power brick and voila, charging at full speed.
-
+I hooked up my power brick and voila, charging at full speed. Note that the Steam Deck will, at least at the current state, request 15 Volts from the dock. This means that it will get a maximum of 45 Watts and some of that will be reserved to power potential other peripherals. According to the specs, this dock will reserve up to 8 Watts. In my tests so far, the Deck charges quickly with my 65W Anker Atom power plug (I like charging my phone on the power plug's secondary port). 
 
 
 ## Does the Steam Deck have a "Docked Mode"?
