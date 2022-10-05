@@ -9,6 +9,7 @@ Table of contents:
 - [Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?](#trouble-finding-your-save-game-folders-and-files-for-emulators-windows-games-lutris-and-heroic-on-steam-deck)
 - [How to search for folders on Steam Deck (Desktop Mode)](#how-to-search-for-folders-on-steam-deck-desktop-mode)
 - [Typical Save Game Folders / Paths on Steam Deck](#typical-save-game-folders--paths-on-steam-deck)
+- [PSA: The Best Steam Deck Dock (4K60, fast charging)](#psa-the-best-steam-deck-dock-4k60-fast-charging)
 - [Copying files and folders to your PC or onto Steam Deck](#copying-files-and-folders-to-your-pc-or-onto-steam-deck)
 
 ## Trouble finding your save game folders and files for Emulators, Windows games, Lutris and Heroic on Steam Deck?
@@ -72,6 +73,12 @@ To identify the correct subfolder here, look up the game in question on the stea
 {{< alert >}}
 To view hidden files and folders in the **Dolphin** file manager on SteamOS, press `Ctrl + H` or select `View -> Show Hidden Files` in the menu. If you can't see the menu bar, hit the hamburger menu and look for `Show Menubar`.
 {{< /alert >}}
+
+## PSA: The Best Steam Deck Dock (4K60, fast charging)
+
+I recently reviewed a fantastic dock for the Steam Deck that I'm still very satisfied with, it just works and does everything you need for docked gaming - [why don't you check out my review]({{<ref"best-dock-usb-c-hub-for-steam-deck">}}) and support this site? :)
+
+{{<figure src="../best-dock-usb-c-hub-for-steam-deck/dock_main.jpg">}}
 
 ## Copying files and folders to your PC or onto Steam Deck
 
