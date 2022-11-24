@@ -6,6 +6,11 @@ draft: false
 
 Get this SD Card for best speed & reliability on Steam Deck.
 
+{{<figure
+    src="samsung_evo_select_512gb.jpg"
+    alt="Samsung EVO Select 512 GB microSD / microSDXC card"
+    >}}
+
 Valve's Steam Deck supports microSDXC, which supports up to 2&nbsp;TB per unit as per the standard. Typically more commercially available however, are cards with up to 1&nbsp;TB of storage. SD cards are incredibly useful and in terms of actual real-life performance, you won't notice much of a difference compared to the internal storage of the Steam Deck.
 
 ## What to look for in a microSD card for Steam Deck
@@ -38,11 +43,6 @@ amzn_assoc_linkid = "ecbe1af1db6eabafb812469d7562d652";
 Samsung has a great track record in terms of SD card reliability, speed and price/performance ratio.
 
 I chose the 512 GB variant pictured below, because that's more than I need to store the games and ROMs that I actually play on my 256 GB Steam Deck.
-
-{{<figure
-    src="samsung_evo_select_512gb.jpg"
-    alt="Samsung EVO Select 512 GB microSD / microSDXC card"
-    >}}
 
 Some people go overboard and store a dozen of these SD cards in a case, in my humble opinion that only results in catalogueing/management overhead, i.e. having to figure out where you stored which game. Additionally, it only really brings analysis paralysis to the table and I find myself actually playing less.
 
