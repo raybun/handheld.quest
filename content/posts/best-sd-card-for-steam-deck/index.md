@@ -42,7 +42,7 @@ amzn_assoc_linkid = "ecbe1af1db6eabafb812469d7562d652";
 
 Samsung has a great track record in terms of SD card reliability, speed and price/performance ratio.
 
-I chose the 512 GB variant pictured below, because that's more than I need to store the games and ROMs that I actually play on my 256 GB Steam Deck.
+I chose the 512 GB variant pictured above, because that's more than I need to store the games and ROMs that I actually play on my 256 GB Steam Deck. Of course the bigger variant of this card is just as great.
 
 Some people go overboard and store a dozen of these SD cards in a case, in my humble opinion that only results in catalogueing/management overhead, i.e. having to figure out where you stored which game. Additionally, it only really brings analysis paralysis to the table and I find myself actually playing less.
 
