@@ -24,8 +24,8 @@ Valve's Steam Deck supports microSDXC, which supports up to 2&nbsp;TB per unit a
 Personally, I prefer the **Samsung Evo Select** microSD cards for my Steam Deck:
 
 - they have favourable reviews (5★), great build quality
-- relatively inexpensive at  ~$45 at 🛒<a href="https://amzn.to/3Ow2m7M" target="_blank">Amazon.com</a>*, depending upon current offers
-- or ~44€ over at 🛒<a href="https://amzn.to/3iaNCPk" target="_blank">Amazon.de</a>* (Black Friday Deal)
+- relatively inexpensive at  ~$58 at 🛒<a href="https://amzn.to/3Ow2m7M" target="_blank">Amazon.com</a>*, depending upon current offers
+- or ~43€ over at 🛒<a href="https://amzn.to/3iaNCPk" target="_blank">Amazon.de</a>*
 
 <script type="text/javascript">
 amzn_assoc_tracking_id = "handheldquest-20";
