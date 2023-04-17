@@ -6,7 +6,7 @@ weight = 1
 rtl = false
 
 title = "Documenting my Steam Deck Journey"
-logo = "img/logo.png"
+header.logo = "img/logo.png"
 description = "Guides for Handheld Addicts (featuring Steam Deck!)"
 copyright = "©{{< year >}} handheld.quest"
 
