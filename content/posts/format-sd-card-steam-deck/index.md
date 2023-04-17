@@ -46,16 +46,6 @@ It's incredibly simple!
 1. Make sure you first format your SD card as described above (or manually, it needs to be ext4 or btrfs formatted)
 2. Run the EmuDeck installer and follow the instructions.
 
----
-
-{{< alert "twitter" >}}
-
-Don't forget to [follow me](https://twitter.com/handheldquest) on Twitter.
-
-{{< /alert >}}
-
----
-
 ## Migrating microSD card contents
 
 If you already have a bunch of stuff on a smaller card and you're hoping to migrate all of your data to a larger card, then [this is the guide for you]({{< ref "/posts/steam-deck-copy-microsd-card-contents-to-larger-drive">}}).

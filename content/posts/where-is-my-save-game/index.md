@@ -80,11 +80,3 @@ To transfer files back and forth between your Desktop computer and Steam Deck, I
 Install the **Windows client** [from e.g. this GitHub Releases Page](https://github.com/slowscript/warpinator-windows/releases) (or another implementation) and get the Steam Deck client via the **Discover** store.
 
 *Warpinator* will allow you to drag and drop folders into the Application and accept the transfer on the other side, as long as both devices are on the same network.
-
----
-
-{{< alert "twitter" >}}
-
-Don't forget to [follow me](https://twitter.com/handheldquest) on Twitter.
-
-{{< /alert >}}

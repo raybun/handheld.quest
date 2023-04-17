@@ -140,15 +140,6 @@ Usually Linux doesn't need a lot of reboots, but this is one of the cases where 
 
 ---
 
-{{< alert "twitter" >}}
-
-Don't forget to [follow me](https://twitter.com/handheldquest) on Twitter.
-
-{{< /alert >}}
-
-
----
-
 ### Troubleshooting
 
 Q: I rebooted but I still can't resize my new drive's partition to fill up the empty space, what's happening?
