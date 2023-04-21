@@ -22,7 +22,7 @@ Table of contents:
 
 You already installed a bunch of games to your microSD on Steam Deck, maybe EmuDeck or other emulation setup and a bunch of ROMs and perhaps games from itch.io, using the Heroic launcher and a whole bunch of other stuff to your 256 GB SD card.
 
-But then you realise that SD cards are cheap. You buy a 512 GB A2 microSD or even a 1TB card.
+But then you realise that SD cards are cheap. You buy a 512 GB A2 microSD or even a 1TB card. [By the way, in case you're still looking for the right card to buy: here's my personal recommendation - <em><b>The ideal Steam Deck SD Card for the fastest load times</em></b>.]({{< ref "best-sd-card-for-steam-deck" >}})
 
 How can you move / migrate your data from the old SD card to the new one?
 
