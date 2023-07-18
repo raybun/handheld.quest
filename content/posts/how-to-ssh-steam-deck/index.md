@@ -31,6 +31,8 @@ I like using <a href="https://filezilla-project.org/" target="_blank">FileZilla<
 Take care not to delete or move system files.
 {{</alert>}}
 
+{{< gamepromo >}}
+
 ## How to disable SSH Daemon
 
 1. Open up Konsole, the SteamOS Terminal emulator, in Desktop Mode.

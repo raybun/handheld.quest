@@ -29,6 +29,8 @@ If you know the name of the folder you're looking for and have no clue where it 
 
 You could just search for that in *Dolphin*! Unfortunately my search process kept crashing, so I went with `KFind` (installed via `Discover`) and found my desired data.
 
+{{< gamepromo >}}
+
 ## Typical Save Game Folders / Paths on Steam Deck
 
 Often you are looking for a so-called **Prefix Folder**, Wine uses such folders to contain all of the configuration and windows bits and pieces needed for compatibility, like a registry.

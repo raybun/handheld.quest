@@ -35,6 +35,8 @@ It's incredibly simple!
 4. Select `Format` in the `Format SD Card` section.
 5. That's it! Your card will now be formatted correctly and contain a rudimentary folder structure so that Steam can populate the card with games.
 
+{{< gamepromo >}}
+
 ## How to make SD Card the preferred install location
 
 1. Press the `STEAM` button to show the menu

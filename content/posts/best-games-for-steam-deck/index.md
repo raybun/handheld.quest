@@ -8,7 +8,7 @@ The Steam Deck has taken the gaming world by storm, and it's no wonder why. With
 
 That's why I've compiled a list of *my favourites as well as hidden gems for Steam Deck* that you might have overlooked but definitely shouldn't miss. So, let's dive in and explore these fantastic games!
 
-By the way, these come in no particular order.
+{{< gamepromo >}}
 
 1\. CrossCode
 -------------

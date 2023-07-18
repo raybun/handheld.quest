@@ -53,6 +53,8 @@ I hooked up my power brick and voila, charging at full speed. Note that the Stea
 
 In my tests so far, the Deck charges quickly (and without a slow charging error) with my 65W Anker Atom power plug (I like charging my phone on the power plug's secondary port). Other devices negotiating the full 20 Volts (e.g. modern laptops) will benefit from the full 100W charging power.
 
+{{< gamepromo >}}
+
 
 ## Does the Steam Deck have a "Docked Mode"?
 

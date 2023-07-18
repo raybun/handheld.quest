@@ -38,6 +38,8 @@ I like command-line utilities and don't quite trust GUI file managers for large 
 
 This will max out the write speed of your microSD drive and provide the **fastest result**. It involves using the Terminal, but hey, you're here to learn, right? This will teach you useful Linux-fu.
 
+{{< gamepromo >}}
+
 ## How to clone a whole drive in linux using the dd utility (e.g. for creating a perfect clone of your microSD on Steam Deck)
 
 **What you will need**

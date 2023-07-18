@@ -25,3 +25,5 @@ You can navigate to that folder via Dolphin:
 And then send the files over to your PC/Mac, for instance using **Warpinator**.
 
 Alternatively, you can set up SSH access to your Steam Deck and fetch the files directly from your other machine. I have a [quick Steam Deck SSH guide]({{<ref "how-to-ssh-steam-deck">}}) if you're interested in using e.g. FileZilla to access your Steam Deck File System. It's nice because it also works in Game Mode.
+
+{{< gamepromo >}}
