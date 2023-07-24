@@ -1,5 +1,16 @@
 <div class="px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
-    <p><b>By the way, I'm MAKING A GAME for the Steam Deck! 🔥🔥🔥</b></p><p> I fell in 🥰 with the Deck and craved an easy to pick up and play rogue-lite for it, with twin-stick controls and beautiful retro visuals, designed with the Deck in mind for performance and battery life.</p><p>It's super hard to get visibility as a solo indie dev, so: <br><a href="https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=blog&utm_campaign=prelaunch" target="_blank">🧙‍♂️ Please WISHLIST the game on Steam! 🐲</a></p>
+    <p><b>By the way, I'm MAKING A GAME for Steam Deck! 🔥🔥🔥</b></p>
+    {{ $image := resources.Get "img/black_dragon_mage_on_steam_deck.gif" }}
+    <img src="{{ $image.RelPermalink }}" width="100%" height="auto" loading="lazy">
+    <p> I fell in 🥰 with the Deck and craved an <b>easy to pick up and play rogue-lite</b> for it, with <b>twin-stick controls</b>
+        and <b>beautiful retro visuals</b>, designed with Steam Deck in mind for performance and battery life.</p>
+    <p>It's super hard to get visibility as a solo indie dev, so... <br>
+        <h3><a
+            class="block text-center"
+            href="https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=blog&utm_content=cta_button&utm_campaign=prelaunch"
+            target="_blank"
+            style="color: white !important; background: linear-gradient(to bottom, #a4d007 5%, #536904 95%); border-radius: 3px; padding: 3px; text-decoration: none !important;">
+            🧙‍♂️ Please WISHLIST on Steam! 🐲</a></p></h3>
 
     <steam-app appid="2207230"></steam-app>
 </div>
