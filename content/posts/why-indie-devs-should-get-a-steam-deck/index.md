@@ -4,7 +4,7 @@ date: 2024-01-26T15:56:41+01:00
 draft: false
 ---
 
-{{<figure src="indie-workdesk.jpg" caption="My humble solo indie workbench">}}
+{{<figure src="indie-workdesk.jpg" caption="My humble solo indie workbench.">}}
 
 The Steam Deck is a Dev Dream come true. I've always dreamt of making a game for a handheld console, but this is better. Let me tell you why.
 
@@ -32,7 +32,7 @@ Long story short: They say **"build the thing you'd want to use yourself**" and 
 
 When I bought the Deck right at launch, I played a variety of games and that inspired me to come up with a fantasy action rogue-lite that I would enjoy personally, for quick rounds, in a pick-up-and-play manner.
 
-Througout the development of my game, I learned a ton about the Steam platform, how to optimize my game for the Deck... and there's still so much to explore. 
+Throughout the development of my game, I learned a ton about the Steam platform, how to optimize my game for the Deck... and there's still so much to explore. 
 
 Learning about various little tricks (like SSH access, where screenshots are stored, and how to grab a save game, all described on this site) also made me start this very blog, as a notebook of sorts.
 
