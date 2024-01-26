@@ -1,0 +1,48 @@
+{{/*  <div class ="self-center" style="margin-top: 10px;">
+<a href="https://www.anrdoezrs.net/9898biroiq5766CDF97657B8CEE89" target="_blank">
+    <img src="https://www.ftjcfx.com/9898kpthnl6877DEGA8768C9DFF9A" alt="" border="0"/>
+</a>
+</div>  */}}
+
+
+  
+  <!-- Custom JavaScript code -->
+  <script>
+    // Function to append UTM parameters to the link
+    function replaceLinkWithUTMParameters(linkElement) {
+      console.log('Running replaceLinkWithUTMParameters');
+      if (linkElement && linkElement.href.includes('2207230')) {
+        // Replace the link's href attribute with the hardcoded URL containing UTM parameters
+        linkElement.href = "https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=steam_widget&utm_campaign=prelaunch";
+        console.log('Link updated with UTM parameters:', linkElement.href);
+        clearInterval(checkInterval);
+      }
+    }
+  
+    // Function to check if the link is present and trigger the custom code
+    function checkLinkAndReplace() {
+      console.log('Running checkLinkAndReplace');
+      const linkElement = document.querySelector('.steam-app-footer-button a');
+      if (linkElement) {
+        console.log('Link element found. Executing replaceLinkWithUTMParameters');
+        replaceLinkWithUTMParameters(linkElement);
+      }
+    }
+  
+    // Use DOMContentLoaded event to run the initial check
+    document.addEventListener('DOMContentLoaded', function () {
+      console.log('DOMContentLoaded event fired');
+      checkLinkAndReplace();
+      // Use setInterval to check for the link periodically
+      checkInterval = setInterval(checkLinkAndReplace, 500);
+    });
+  
+    // Use load event for the steamwidgets script to clear the setInterval after the widget is fully loaded
+    const steamWidgetsScript = document.querySelector('script[src="https://www.steamwidgets.com/api/resource/query?type=js&module=app&version=v1"]');
+    steamWidgetsScript.addEventListener('load', function () {
+      console.log('steamwidgets script loaded');
+      clearInterval(checkInterval);
+    });
+  </script>
+  
+  
