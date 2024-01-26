@@ -6,7 +6,7 @@
 
   
   <!-- The external script that generates the widget -->
-  <script src="https://www.steamwidgets.com/api/resource/query?type=js&module=app&version=v1"></script>
+  <script src="https://steam.satki.net/api/resource/query?type=js&module=app&version=v1"></script>
   
   <!-- Custom JavaScript code -->
   <script>
@@ -15,7 +15,7 @@
       console.log('Running replaceLinkWithUTMParameters');
       if (linkElement && linkElement.href.includes('2207230')) {
         // Replace the link's href attribute with the hardcoded URL containing UTM parameters
-        linkElement.href = "https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=steam_widget&utm_campaign=prelaunch";
+        linkElement.href = "https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=steam_widget&utm_campaign=demo";
         console.log('Link updated with UTM parameters:', linkElement.href);
         clearInterval(checkInterval);
       }
@@ -40,7 +40,7 @@
     });
   
     // Use load event for the steamwidgets script to clear the setInterval after the widget is fully loaded
-    const steamWidgetsScript = document.querySelector('script[src="https://www.steamwidgets.com/api/resource/query?type=js&module=app&version=v1"]');
+    const steamWidgetsScript = document.querySelector('script[src="https://steam.satki.net/api/resource/query?type=js&module=app&version=v1"]');
     steamWidgetsScript.addEventListener('load', function () {
       console.log('steamwidgets script loaded');
       clearInterval(checkInterval);
