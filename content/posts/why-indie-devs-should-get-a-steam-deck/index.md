@@ -4,9 +4,9 @@ date: 2024-01-26T15:56:41+01:00
 draft: false
 ---
 
-The Steam Deck is a Dev Dream come true. I've always dreamt of making a game for a handheld console, but this is better. Let me tell you why.
+{{<figure src="indie-workdesk.jpg" caption="My humble solo indie workbench">}}
 
-{{<figure src="gameplay.gif">}}
+The Steam Deck is a Dev Dream come true. I've always dreamt of making a game for a handheld console, but this is better. Let me tell you why.
 
 Long story short: They say **"build the thing you'd want to use yourself**" and that's how I ended up developing an action-roguelite game ([ahem, check it out on Steam if you're keen](https://store.steampowered.com/app/2207230/Black_Dragon_Mage/?utm_source=handheldquest&utm_medium=article_intro&utm_campaign=demo)) with the Steam Deck in mind, *starting as early as the prototype stage.*
 
@@ -26,8 +26,7 @@ Long story short: They say **"build the thing you'd want to use yourself**" and 
   - [Watch the trailer:](#watch-the-trailer)
   - [Play the game:](#play-the-game)
 
-{{<figure src="indie-workdesk.jpg" caption="My humble solo indie workbench">}}
-
+{{<figure src="gameplay.gif">}}
 
 ## 🧙‍♂️ How I ended up building a game with a "designed for Steam Deck" mentality
 
