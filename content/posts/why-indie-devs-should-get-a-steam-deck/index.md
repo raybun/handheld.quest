@@ -56,7 +56,7 @@ Using the **Performance Settings** panel, I can easily test various constellatio
 
 ### Looking deep into frametime
 
-The **Performance Overlay** aka **GAMESCOPE** gives me broad and detailed access to all stats I want to see as a dev and player about my game.
+The **Performance Overlay** aka **MangoHud** (A Vulkan and OpenGL [overlay](https://github.com/flightlessmango/MangoHud) for monitoring FPS, temperatures, CPU/GPU load and more) gives me broad and detailed access to all stats I want to see as a dev and player about my game.
 
 I can **throttle** the Steam Deck to perform like a lower-range device, or test how well my game runs at maximum capacity. This has allowed me to design for an accessible range of hardware and make sure that my game runs well whilst not draining the battery too quickly. Meanwhile, I can profile my game using my engine's profiler, but running on a standalone computer. Perfect.
 
