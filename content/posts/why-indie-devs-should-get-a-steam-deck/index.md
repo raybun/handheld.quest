@@ -2,9 +2,8 @@
 title: "Developing a Game with Steam Deck in Mind"
 date: 2024-01-26T15:56:41+01:00
 draft: false
+cover: "*workdesk*"	
 ---
-
-{{<figure src="indie-workdesk.jpg" caption="My humble solo indie workbench.">}}
 
 The Steam Deck is a Dev Dream come true. I've always dreamt of making a game for a handheld console, but this is better. Let me tell you why.
 
