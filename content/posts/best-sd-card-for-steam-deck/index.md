@@ -27,6 +27,8 @@ Personally, I prefer the **Samsung Evo Select** microSD cards for my Steam Deck:
 - relatively inexpensive at  ~$58 at 🛒<a href="https://amzn.to/3Ow2m7M" target="_blank">Amazon.com</a>*, depending upon current offers
 - or ~43€ over at 🛒<a href="https://amzn.to/3iaNCPk" target="_blank">Amazon.de</a>*
 
+* *affiliate link, site may earn a tiny commission at no additional cost to you. Helps keep the site running <3*
+
 <script type="text/javascript">
 amzn_assoc_tracking_id = "handheldquest-20";
 amzn_assoc_ad_mode = "manual";

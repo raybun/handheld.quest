@@ -23,6 +23,8 @@ Why can't the lake have two docks?
 - relatively inexpensive at ~39€ over at 🛒<a href="https://amzn.to/3vk6gZ0" target="_blank">Amazon.de</a>*
 - or ~$41 at 🛒<a href="https://amzn.to/3owqs64" target="_blank">Amazon.com</a>*, depending upon current offers
 
+* *affiliate link, site may earn a tiny commission at no additional cost to you. Helps keep the site running <3*
+
 {{<alert>}}
 I am not affiliated with Dockteck or any of their partners.
 {{</alert>}}
