@@ -2,7 +2,7 @@
 title: "Developing a Game with Steam Deck in Mind"
 date: 2024-01-26T15:56:41+01:00
 draft: false
-cover: "*workdesk*"	
+cover: "*workdesk*"
 ---
 
 The Steam Deck is a Dev Dream come true. I've always dreamt of making a game for a handheld console, but this is better. Let me tell you why.
@@ -31,13 +31,13 @@ Long story short: They say **"build the thing you'd want to use yourself**" and 
 
 When I bought the Deck right at launch, I played a variety of games and that inspired me to come up with a fantasy action rogue-lite that I would enjoy personally, for quick rounds, in a pick-up-and-play manner.
 
-Throughout the development of my game, I learned a ton about the Steam platform, how to optimize my game for the Deck... and there's still so much to explore. 
+Throughout the development of my game, I learned a ton about the Steam platform, how to optimize my game for the Deck... and there's still so much to explore.
 
 Learning about various little tricks (like SSH access, where screenshots are stored, and how to grab a save game, all described on this site) also made me start this very blog, as a notebook of sorts.
 
 
 ## 🚀 Performance Testing
- 
+
 As **game developers,** we want our game to ideally run on a potato PC. So we need to test the game in a fitting environment.
 
 But I don't own a potato PC, since I'm also a gamer. 😉 Even worse, my partner works in game art, so her machine can probably run three (not more, of course, limits of physics and all) instances of Crysis without breaking a sweat.
@@ -104,7 +104,7 @@ With the Steam Deck and a **cozy corner** far away from my work desk (I work fro
 
 The Steam Deck makes informal deployments ridiculously easy, you don't even need to be a Steam developer with an account - just pop your game build onto the Deck and add it as a non-steam game. Many of my gamedev friends didn't realise that was all it took. And I hope we'll see more Deck games thanks to that info. 😉
 
-As a matter of fact, for at least half a year or so, this was all I did. 
+As a matter of fact, for at least half a year or so, this was all I did.
 
 I wrote a little bash script to *rsync* my game folder from my PC [to the Steam Deck over SSH]({{<ref "how-to-ssh-steam-deck">}}) whenever I rolled a fresh build of the game. Anyone can easily use a Windows (.exe) build from any engine and pick a custom Proton version, or even deploy a Linux-native build.
 
@@ -128,5 +128,4 @@ Shameless plug: If you want, [you can check out my game, Black Dragon Mage, via 
 
 ### Play the game:
 
-<steam-app appid="2207230"></steam-app>
-
+{{< steam-app appid="2207230" >}}

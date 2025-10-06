@@ -6,8 +6,11 @@ baseURL = "https://handheld.quest/"
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
-paginate = 10
-summaryLength = 0
+[pagination]
+  pagerSize = 25
+
+summaryLength = 40
+
 googleAnalytics = "G-7NLW1VV2F6"
 
 [outputs]

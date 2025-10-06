@@ -1,0 +1,14 @@
+{{- /* Shortcode: steam-app Usage: {{< steam-app appid="123456" >}} Renders an
+official Steam widget iframe. */ -}} {{- $appid := .Get "appid" -}} {{- if
+$appid -}}
+<iframe
+    src="https://store.steampowered.com/widget/{{ $appid }}/"
+    frameborder="0"
+    width="646"
+    height="190"
+    loading="lazy"
+    style="max-width: 100%; border: none; overflow: hidden"
+></iframe>
+{{- else -}}
+<!-- Missing appid in steam-app shortcode -->
+{{- end -}}

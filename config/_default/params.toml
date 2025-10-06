@@ -27,11 +27,12 @@ enableCodeCopy = true
 [homepage]
   layout = "page" # valid options: page, profile, custom
   showRecent = true
+  recentLimit = 25
 
 [article]
   showDate = true
   showDateUpdated = false
-  showAuthor = false
+  showAuthor = true
   showBreadcrumbs = false
   showDraftLabel = true
   showEdit = false
@@ -43,15 +44,15 @@ enableCodeCopy = true
   showReadingTime = false
   showTableOfContents = false
   showTaxonomies = false
-  showWordCount = false
+  showWordCount = true
   showComments = false
-  # sharingLinks = ["facebook", "twitter", "pinterest", "reddit", "linkedin", "email"]
+  # sharingLinks = ["bluesky", "reddit", "linkedin", "email"]
 
 [list]
   showBreadcrumbs = false
   showSummary = true
   showTableOfContents = false
-  groupByYear = true
+  groupByYear = false
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
@@ -68,3 +69,52 @@ enableCodeCopy = true
   # bing = ""
   # pinterest = ""
   # yandex = ""
+  [author]
+    name = "datablob"
+    # image = "img/author.jpg"
+    # headline = "would marry his Steam Deck if he could"
+    bio = "would marry his Steam Deck if he could"
+    links = [
+       { email = "mailto:support@datablob.studio" },
+      # { link = "https://link-to-some-website.com/" },
+      # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
+      # { apple = "https://www.apple.com" },
+      { bluesky = "https://bsky.app/profile/datablob.studio"},
+      # { blogger = "https://username.blogspot.com/" },
+      # { codepen = "https://codepen.io/username" },
+      # { dev = "https://dev.to/username" },
+      { discord = "https://discord.gg/2ZqdXBNykt" },
+      # { dribbble = "https://dribbble.com/username" },
+      # { facebook = "https://facebook.com/username" },
+      # { flickr = "https://www.flickr.com/photos/username/" },
+      # { foursquare = "https://foursquare.com/username" },
+      # { github = "https://github.com/raybun" },
+      # { gitlab = "https://gitlab.com/username" },
+      # { google = "https://www.google.com/" },
+      # { hashnode = "https://username.hashnode.dev" },
+      # { instagram = "https://instagram.com/username" },
+      # { keybase = "https://keybase.io/username" },
+      # { kickstarter = "https://www.kickstarter.com/profile/username" },
+      # { lastfm = "https://lastfm.com/user/username" },
+      # { linkedin = "https://linkedin.com/in/username" },
+      # { mastodon = "https://mastodon.instance/@username" },
+      # { medium = "https://medium.com/username" },
+      # { microsoft = "https://www.microsoft.com/" },
+      # { orcid = "https://orcid.org/userid" },
+      # { patreon = "https://www.patreon.com/username" },
+      # { pinterest = "https://pinterest.com/username" },
+      # { reddit = "https://reddit.com/user/manycyber" },
+      # { researchgate = "https://www.researchgate.net/profile/username" },
+      # { slack = "https://workspace.url/team/userid" },
+      # { snapchat = "https://snapchat.com/add/username" },
+      # { soundcloud = "https://soundcloud.com/username" },
+      # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
+       { steam = "https://store.steampowered.com/publisher/datablob" },
+      # { telegram = "https://t.me/username" },
+      # { tiktok = "https://tiktok.com/@username" },
+      # { tumblr = "https://username.tumblr.com" },
+      # { twitch = "https://twitch.tv/username" },
+      #  { twitter = "https://twitter.com/handheldquest" },
+      # { whatsapp = "https://wa.me/phone-number" },
+      { youtube = "https://www.youtube.com/@datablob" },
+    ]
